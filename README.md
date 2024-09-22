@@ -1,9 +1,5 @@
-# Exploratory Data Analysis - Retail
-
-## Author: VISHRUTI MATHUR
-
+# Exploratory Data Analysis - Retai
 ---
-
 ## Problem Statement:
 
 Perform Exploratory Data Analysis (EDA) on the dataset **"Sample Superstore"**. As a business manager, the goal is to identify weak areas where actions can be taken to increase profitability.
@@ -34,7 +30,7 @@ The dataset provided consists of the following columns:
 ### 1. **Impact of Discounts on Sales and Profit**
    - **Finding**: Discounts and profit are negatively correlated (-0.22), meaning higher discounts tend to decrease profit. However, discounts and sales are positively correlated (0.48), indicating that higher discounts drive more sales.
    
-   ![Discount vs Profit](images/discount_vs_profit.png)
+   ![Discount vs Profit](images/discount_vs_profit_vs_sales.png)
    ![Discount vs Sales](images/discount_vs_sales.png)
 
 ### 2. **Correlation Between Sales and Profit**
@@ -71,8 +67,7 @@ The dataset provided consists of the following columns:
 ### 8. **Sub-category Performance**
    - **Finding**: The **Phones** sub-category has the highest sales. Although **Chairs** also have high sales, their profits are lower compared to phones. Sub-categories like **Tables** and **Bookcases** are experiencing significant losses.
    
-   ![Sub-category Sales](images/sub_category_sales.png)
-   ![Sub-category Profit](images/sub_category_profit.png)
+   ![Sub-category Sales](images/sub_category_sales_profit.png)
 
 ---
 
@@ -129,13 +124,3 @@ Special thanks to the authors of the following libraries used in this project:
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Seaborn](https://seaborn.pydata.org/)
-```
-
-### Steps to Complete:
-1. **Generate Visualizations**: Ensure the visualizations are generated in your Python scripts, and save them using commands like:
-   ```python
-   plt.savefig('images/discount_vs_profit.png')  # Example for saving the chart
-   ```
-2. **Create `images/` Folder**: Create an `images/` directory in your project folder and save the charts there.
-3. **Update README**: Replace the image file names in the markdown with the actual names of the saved files.
-4. **Test the README**: Ensure that the markdown renders correctly with the images and content when viewed on GitHub or any markdown viewer.
