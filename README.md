@@ -1,4 +1,4 @@
-# Exploratory Data Analysis - Retai
+# Exploratory Data Analysis - Retail
 ---
 ## Problem Statement:
 
@@ -31,7 +31,6 @@ The dataset provided consists of the following columns:
    - **Finding**: Discounts and profit are negatively correlated (-0.22), meaning higher discounts tend to decrease profit. However, discounts and sales are positively correlated (0.48), indicating that higher discounts drive more sales.
    
    ![Discount vs Profit](images/discount_vs_profit_vs_sales.png)
-   ![Discount vs Sales](images/discount_vs_sales.png)
 
 ### 2. **Correlation Between Sales and Profit**
    - **Finding**: There is a weak positive correlation between sales and profit, suggesting that higher sales generally lead to increased profit, but the relationship is not very strong.
